@@ -1,0 +1,252 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+    body{
+        background-color: #161F6D;
+    }
+
+    header{
+    background-color:#0645f3;
+    max-width: none;
+    color: white;
+    padding: 20px;
+
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display: inline;
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+marquee{
+    font-size: 80px;
+    font-style: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#ffffff ;
+    
+
+}
+#home{
+    text-align: center;
+    margin-top: 90px;
+    button{
+        background-color: #0645f3;
+        color: white;
+        width: 350px;
+        padding: 20px;
+        font-size: 30px;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    h1{
+        color: white;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        
+    }
+    h2{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 40px;
+       
+    }
+    p{
+            color: white;
+        }
+}
+img{
+    float: right;
+    border: 10px solid #0645f3;
+    border-radius: 200px;
+    width: 230px;
+    margin-right: 600px;
+}
+/* #about{
+    p{
+        
+        border: 1px solid #161F6D;
+        width: 500px;
+        text-align: left;
+        padding: 30px;
+        color: white;
+
+    }
+    h1{
+        margin-top: 300px;
+        padding-left: 70px;
+        color: #ffffff;
+        font-size: 2.5em;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+   
+} */
+
+#about{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+
+}
+
+#service {
+    background-color: #f4f4f4;
+    padding: 50px 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#service h2 {
+    text-align: left;
+    color: #161F6D;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+}
+
+.service {
+    background: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.service h3 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+.service p {
+    font-size: 1em;
+    line-height: 1.6;
+}
+#skill {
+    background-color:#161F6D;
+    padding: 50px 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#skill h2 {
+    text-align: left;
+    color: white;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+}
+
+.skill {
+    background: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.skill h3 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+.skill p {
+    font-size: 1em;
+    line-height: 1.6;
+}
+#contact {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#contact h2 {
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    color: #161F6D;
+}
+
+form {
+    background: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+#contact button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #161F6D;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#contact button[type="submit"]:hover {
+    background-color: #0645f3;
+}
+
+
+footer{
+    button{
+        background-color:white;
+        color: #161F6D;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        cursor: pointer;
+        border: 2px;
+        border-radius: 2px;
+        transition: background-color 0.3s ease;
+
+    }
+    button[type="submit"]:hover {
+        background-color: #0645f3;
+        }
+    color: white;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    
+}
+ 
